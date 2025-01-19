@@ -1,6 +1,6 @@
-# ECDNet and EDSNet
+# ODSM
 
-Official Pytorch Code base for our two projects: ECDNet and EDSNet. Thank you for providing the basic code in paper [UNeXt: MLP-based Rapid Medical Image Segmentation Network](https://arxiv.org/abs/2203.04967), MICCAI 2022. In the process of implementing our project, our backbone part referred to the paper.
+Official Pytorch Code base for our project: ODSM. Thank you for providing the basic code in paper [UNeXt: MLP-based Rapid Medical Image Segmentation Network](https://arxiv.org/abs/2203.04967), MICCAI 2022. In the process of implementing our project, our backbone part referred to the paper.
 [Paper](https://arxiv.org/abs/2203.04967) | [Project](https://jeya-maria-jose.github.io/UNext-web/)
 
 ## Introduction
@@ -88,13 +88,3 @@ python val.py --name <exp name>
 ### Acknowledgements:
 
 This code-base uses certain code-blocks and helper functions from [UNet++](https://github.com/4uiiurz1/pytorch-nested-unet), [Segformer](https://github.com/NVlabs/SegFormer), and [AS-MLP](https://github.com/svip-lab/AS-MLP). Naming credits to [Poojan](https://scholar.google.co.in/citations?user=9dhBHuAAAAAJ&hl=en).
-
-### Citation:
-```
-@article{valanarasu2022unext,
-  title={UNeXt: MLP-based Rapid Medical Image Segmentation Network},
-  author={Valanarasu, Jeya Maria Jose and Patel, Vishal M},
-  journal={arXiv preprint arXiv:2203.04967},
-  year={2022}
-}
-```
